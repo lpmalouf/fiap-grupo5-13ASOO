@@ -1,5 +1,39 @@
 # fiap-grupo5-13ASOO
-Repositório para Solution Sprint fase 04 e 05 - grupo5 13ASOO MBA Arquitetura de Soluções 
+Repositório para Solution Sprint fase 04 e 05 - grupo5 13ASOO MBA Arquitetura de Soluções
+
+# Descrição do projeto 
+
+Descrição do Projeto: Sistema de Gerenciamento de Playlists Musicais da SpotMusic
+A SpotMusic um sistema de gerenciamento de playlists musicais. A arquitetura adotada para este projeto foi planejada para garantir escalabilidade, flexibilidade e alta performance. Abaixo está uma breve descrição das principais componentes e tecnologias adotadas:
+Arquitetura Geral
+1.	Front-end:
+        •	Tecnologia: Python Flask
+        •	Descrição: Utilizado para desenvolver a interface web do sistema, proporcionando uma base sólida e flexível para a criação de uma interface de usuário responsiva e                 eficiente.
+        Mobile:
+        •	Tecnologia: Ionic com Capacitor
+        •	Descrição: Escolhido pela sua alta produtividade e capacidade de personalização de layout para diferentes plataformas, o Ionic permite o desenvolvimento rápido e                   eficaz de aplicações móveis para Android e iOS.
+2.	Back-end:
+        •	Tecnologia: Microsserviços em Python
+        •	Descrição: A arquitetura de microsserviços permite o desenvolvimento, implantação e escalabilidade independentes de cada funcionalidade do sistema, melhorando a                    manutenção e a atualização contínua do serviço.
+3.	Banco de Dados:
+        •	Tecnologias: Amazon RDS for MySQL e Amazon DynamoDB
+        •	Descrição: Amazon RDS for MySQL é utilizado para armazenamento de dados estruturados, enquanto o Amazon DynamoDB é usado para armazenamento de dados NoSQL, 
+                proporcionando flexibilidade e performance nas operações de leitura e escrita.
+4.	Serviços de Mensageria:
+        •	Tecnologia: Apache Kafka
+        •	Descrição: Utilizado para comunicação eficiente entre microsserviços, garantindo a integridade e a rapidez na troca de informações.
+5.	Monitoramento e Logging:
+        •	Tecnologia: Amazon CloudWatch
+        •	Descrição: Implementado para monitoramento contínuo da infraestrutura e das aplicações, além de coleta e análise de logs, permitindo a detecção proativa de                         problemas e a manutenção da saúde do sistema.
+6.	Ferramenta de Analytics:
+        •	Tecnologia: Amazon QuickSight
+        •	Descrição: Usado para análise de dados e criação de dashboards interativos, fornecendo insights valiosos sobre o comportamento dos usuários e a performance das                                músicas.
+Estratégia de Repositório de Código
+        •	Plataforma: GitHub
+        •	Fluxo de Trabalho: GitFlow
+        •	Estrutura: Repositórios separados para cada microsserviço e um repositório monolítico para o front-end e aplicações mobile.
+        •	Regras de Commit: Mensagens de commit padronizadas para garantir clareza e rastreabilidade das mudanças.
+        •	Integração Contínua e Deploy Contínuo (CI/CD): Implementação de pipelines automatizados com GitHub Actions para build, teste e deploy.
 
 # Estratégia padrão adotada para o Repositório de Código na SpotMusic
 # Estrutura de Repositórios
